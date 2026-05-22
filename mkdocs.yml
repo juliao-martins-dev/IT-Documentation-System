@@ -1,11 +1,73 @@
-site_name: IT Documentation
+site_name: IT Operations Documentation
+site_description: Internal IT system documentation and runbooks
+site_author: IT Team
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tree
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search:
+      lang: en
+
 nav:
   - Home: index.md
-  - About: about.md
-  - User Guide: 
-    - Learn Java: guide/java.md
-    - Learn JavaScript: guide/javascript.md
-theme: 
-  name: readthedocs
-  analytics:
-  gtag: G-ABC123
+  - Infrastructure:
+    - infrastructure/index.md
+    - Server: infrastructure/server/index.md
+    - Network: infrastructure/network/index.md
+    - Storage: infrastructure/storage/index.md
+    - Cloud / VM: infrastructure/cloud/index.md
+  - Applications:
+    - applications/index.md
+    - Core Systems: applications/core-systems/index.md
+    - Billing: applications/billing/index.md
+    - Portal: applications/portal/index.md
+  - Database:
+    - database/index.md
+    - Oracle: database/oracle/index.md
+    - MySQL: database/mysql/index.md
+  - Security:
+    - security/index.md
+  - Operations:
+    - operations/index.md
+    - Runbook: operations/runbook/index.md
+    - Incident Report: operations/incident/index.md
+    - Change Management: operations/change-management/index.md
+  - Designs:
+    - designs/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - def_list
