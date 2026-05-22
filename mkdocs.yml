@@ -6,6 +6,8 @@ site_dir: site
 
 theme:
   name: material
+  favicon: assets/favicon-16x16.png
+  logo: assets/favicon-32x32.png
   language: en
   features:
     - navigation.tree
