@@ -8,3 +8,9 @@ public class Main {
     }
 }
 ```
+
+## Best resource
+
+Learn java with best resource 
+
+- [W3schools Java](https://www.w3schools.com/java/)
