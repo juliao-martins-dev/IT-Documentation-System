@@ -1,17 +1,38 @@
-# Welcome to MkDocs
+# Welcome to IT Operations Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Internal IT system documentation, runbooks, and operational guides for the IT Team.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 📋 Quick Navigation
 
-## Project layout
+| Section | Description |
+|---|---|
+| [Infrastructure](infrastructure/index.md) | Servers, network, storage, and cloud/VM |
+| [Applications](applications/index.md) | Core systems, billing, and portal |
+| [Database](database/index.md) | Oracle and MySQL documentation |
+| [Security](security/index.md) | Security policies and procedures |
+| [Operations](operations/index.md) | Runbooks, incident reports, change management |
+| [Designs](designs/index.md) | System and architecture designs |
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+## 🚀 Getting Started
+
+!!! info "New here?"
+    Start with the [Infrastructure](infrastructure/index.md) section to understand
+    our system layout, then check [Operations](operations/index.md) for day-to-day runbooks.
+
+!!! warning "Important"
+    All changes to production systems must follow the
+    [Change Management](operations/change-management/index.md) process.
+
+---
+
+## 📞 Contact
+
+| Role | Contact |
+|---|---|
+| IT Team Lead | it-lead@company.com |
+| Helpdesk | helpdesk@company.com |
+| Emergency | +000-000-0000 |

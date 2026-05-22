@@ -19,7 +19,8 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: indigo
+      # primary: indigo
+      primary: orange
       accent: indigo
       toggle:
         icon: material/brightness-7
