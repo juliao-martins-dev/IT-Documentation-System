@@ -2,4 +2,10 @@ site_name: IT Documentation
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
+  - User Guide: 
+    - Learn Java: guide/java.md
+    - Learn JavaScript: guide/javascript.md
+theme: 
+  name: readthedocs
+  analytics:
+  gtag: G-ABC123
