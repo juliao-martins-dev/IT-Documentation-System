@@ -233,7 +233,7 @@ sudo gitlab-backup restore BACKUP=<TIMESTAMP>
 
 ## 👤 About the Author
 
-**Julião Martins** — IT Professional & Junior Developer  
+**Julião Martins** — IT Collaborator & Junior Developer  
 📍 Dili, Timor-Leste 🇹🇱  
 🏢 Built during tenure at **Viettel Timor, Unipessoal, Lda.** — CBD10, Timor Plaza, Dili
 
