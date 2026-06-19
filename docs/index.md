@@ -1,6 +1,6 @@
 # Welcome to IT Operations Documentation
 
-![Bird picture](https://cdn.pixabay.com/photo/2017/10/18/22/07/nature-2865703_1280.jpg){width="400" height="200" style="border-radius: 12px; display: block; margin: 1rem auto;" }
+![Bird picture](assets/Cover.png){height="200" style="border-radius: 12px; display: block; margin: 1rem auto;" }
 
 Internal IT system documentation, runbooks, and operational guides for the IT Team.
 
