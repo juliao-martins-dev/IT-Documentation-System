@@ -1,6 +1,6 @@
 # Welcome to IT Operations Documentation
 
-![Bird picture](assets/Cover.png){height="200" style="border-radius: 12px; display: block; margin: 1rem auto;" }
+![IT Docs cover image](assets/Cover.png){height="200" style="border-radius: 12px; display: block; margin: 1rem auto;" }
 
 Internal IT system documentation, runbooks, and operational guides for the IT Team.
 
